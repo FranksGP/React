@@ -28,7 +28,7 @@ export const ItemCounter = ({name, quantity = 1} : Props) => {
     };
 
     const handleSubtract = () => {
-        if(count === 0) return; // mpide que el balosr sea menor que 0
+        if(count === 1) return; // mpide que el balosr sea menor que 0
         setCount(count - 1);
     };
     return (
