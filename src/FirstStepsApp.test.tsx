@@ -40,7 +40,7 @@ describe('FirstStepsApp', () => {
         
         expect(itemCounters.length).toBe(3);
 
-        screen.debug(); // imprime 
+        // screen.debug(); // imprime 
     });
 
     test('should render ItemCounter with correct props', () => {
